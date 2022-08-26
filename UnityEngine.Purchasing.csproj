@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E2D6D030-6F41-41E3-D2C9-97FD10EB0326}</ProjectGuid>
+    <ProjectGuid>{2977D731-5B97-65A2-E953-B5908D20B1D1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing</AssemblyName>
@@ -702,15 +702,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Purchasing.Common.csproj">
-      <Project>{ED76AC3A-8FC5-12FD-E89E-39F7F7EF97A1}</Project>
+      <Project>{4CCD09D9-16BA-01C3-D89E-9267509E9927}</Project>
       <Name>Purchasing.Common</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{B27B250D-E404-A7CB-A031-B506F2BE5A68}</Project>
+      <Project>{000507B9-EB5D-87F2-B651-2EBABEB38746}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{222969A2-80E8-9205-5BE8-136AC932F77B}</Project>
+      <Project>{317885CE-B3E0-8B2C-84E1-B329872A1046}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

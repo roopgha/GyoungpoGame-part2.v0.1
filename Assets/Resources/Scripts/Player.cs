@@ -9,17 +9,25 @@ public class Player : MonoBehaviour
     public bool Light = true;
     public bool SeeToward = true;
     bool flag3 = true;
-    // Start is called before the first frame update
-    void Awake()
+    public GameObject lookAt;
+    public GameObject pos;
+    public GameObject playerRotate;
+    public float lookSpeed = 5;
+
+
+    private void Start()
     {
-        
+        GetGameobject();
     }
 
     // Update is called once per frame
     void Update()
     {
         Move();
-
+        Flash_Light();
+        LookAt();
+        LookAtPos();
+        MovePos();
     }
 
     private void Move()
@@ -28,13 +36,10 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftArrow) && flag > 0 && Light)
         {
-            transform.localRotation *= Quaternion.Euler(0, -60, 0);
             flag--;
         }
-
         if (Input.GetKeyDown(KeyCode.RightArrow) && flag < 2 && Light)
         {
-            transform.localRotation *= Quaternion.Euler(0, 60, 0);
             flag++;
         }
 
@@ -42,7 +47,6 @@ public class Player : MonoBehaviour
         {
             Light = !Light;
             flashLight.flash_light.SetActive(Light);
-            transform.localRotation *= Quaternion.Euler(0, 180, 0);
             flag3 = !flag3;
         }
 
@@ -64,12 +68,12 @@ public class Player : MonoBehaviour
             {
                 if (SeeToward == true)
                 {
-                    transform.localPosition = new Vector3(-4, 1.25f, 0);
+                    transform.localPosition = new Vector3(-4, 0, 0);
                     SeeToward = false;
                 }
                 else if (SeeToward == false)
                 {
-                    transform.localPosition = new Vector3(0, 1.25f, 0);
+                    transform.localPosition = new Vector3(0, 0, 0);
                     SeeToward = true;
                 }
             }              
@@ -77,12 +81,12 @@ public class Player : MonoBehaviour
             {
                 if (SeeToward == true && flag3 == true)
                 {
-                    transform.localPosition = new Vector3(0, 1.25f, 2.7f);
+                    transform.localPosition = new Vector3(0, 0, 2.3f);
                     SeeToward = false;
                 }
                 else if (SeeToward == false)
                 {
-                    transform.localPosition = new Vector3(0, 1.25f, 0);
+                    transform.localPosition = new Vector3(0, 0, 0);
                     SeeToward = true;
                 }
             }
@@ -90,17 +94,63 @@ public class Player : MonoBehaviour
             {
                 if (SeeToward == true)
                 {
-                    transform.localPosition = new Vector3(4, 1.25f, 0);
+                    transform.localPosition = new Vector3(4, 0, 0);
                     SeeToward = false;
                 }
                 else if (SeeToward == false)
                 {
-                    transform.localPosition = new Vector3(0, 1.25f, 0);
+                    transform.localPosition = new Vector3(0, 0, 0);
                     SeeToward = true;
                 }
             }
         }
 
         
+    }
+
+    private void Flash_Light()
+    {
+
+    }
+
+    void LookAt()
+    {
+        Quaternion rotation; 
+         rotation = Quaternion.LookRotation(lookAt.transform.position, playerRotate.transform.position);
+
+        playerRotate.transform.rotation = Quaternion.Lerp(playerRotate.transform.rotation, rotation, lookSpeed * Time.deltaTime);
+    }
+
+    void LookAtPos()
+    {
+        if(flag == 0)
+        {
+            lookAt.transform.position = new Vector3(-5, 0, 1.3f);
+        }
+        else if(flag == 1 && flag3 == true)
+        {
+            lookAt.transform.position = new Vector3(0, 0, 4.5f);
+        }
+        else if(flag == 2)
+        {
+            lookAt.transform.position = new Vector3(5, 0, 1.3f);
+        }
+        if(flag3 == false)
+        {
+            lookAt.transform.position = new Vector3(0, 0, -4.5f);
+        }
+    }
+
+    void MovePos()
+    {
+        //transform.position 
+    }
+
+    void GetGameobject()
+    {
+        flashLight = GameObject.Find("Flashlight").GetComponent<FlashLight>();
+        lookAt = GameObject.Find("LookAt");
+        pos = GameObject.Find("Pos");
+        playerRotate = GameObject.Find("Rotate");
     }
 }

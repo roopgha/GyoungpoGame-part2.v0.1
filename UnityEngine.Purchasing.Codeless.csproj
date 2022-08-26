@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F54D120F-0C95-834A-FBF3-693ABFE85E6B}</ProjectGuid>
+    <ProjectGuid>{43B92D4D-6E9D-4460-697B-2C306A987960}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.Codeless</AssemblyName>
@@ -667,19 +667,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Purchasing.csproj">
-      <Project>{E2D6D030-6F41-41E3-D2C9-97FD10EB0326}</Project>
+      <Project>{2977D731-5B97-65A2-E953-B5908D20B1D1}</Project>
       <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Stores.csproj">
-      <Project>{2FE76586-238C-AA79-9868-A36A17A834CC}</Project>
+      <Project>{14619765-336E-4718-0747-9428560F44A4}</Project>
       <Name>UnityEngine.Purchasing.Stores</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{B27B250D-E404-A7CB-A031-B506F2BE5A68}</Project>
+      <Project>{000507B9-EB5D-87F2-B651-2EBABEB38746}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{222969A2-80E8-9205-5BE8-136AC932F77B}</Project>
+      <Project>{317885CE-B3E0-8B2C-84E1-B329872A1046}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

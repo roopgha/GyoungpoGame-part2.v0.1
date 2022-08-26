@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7F1C0585-C2EA-C5AC-D677-B1DFA08B9245}</ProjectGuid>
+    <ProjectGuid>{F8CE49D4-1D0F-F759-3056-B869C1DD261C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.SecurityStub</AssemblyName>
@@ -612,11 +612,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.Player.csproj">
-      <Project>{0853A2C2-56F6-BBC4-1C98-F876D550FEDA}</Project>
+      <Project>{BD21A832-4965-D410-8E5D-0A2A6CEFC47B}</Project>
       <Name>UnityEngine.Purchasing.SecurityCore.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{BDBCAA13-491F-DADA-EB3A-CE9B366A051A}</Project>
+      <Project>{AF466B55-C9B4-4CA4-7C9D-7E05A1922EF9}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

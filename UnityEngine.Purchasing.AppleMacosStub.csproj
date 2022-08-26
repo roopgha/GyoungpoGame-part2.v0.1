@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B3CBC658-2CE9-CADB-2681-7E97C9F691F0}</ProjectGuid>
+    <ProjectGuid>{51B1DC3E-D25C-A4C2-3C43-6D3602DF583E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.AppleMacosStub</AssemblyName>
@@ -663,19 +663,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Purchasing.Common.csproj">
-      <Project>{ED76AC3A-8FC5-12FD-E89E-39F7F7EF97A1}</Project>
+      <Project>{4CCD09D9-16BA-01C3-D89E-9267509E9927}</Project>
       <Name>Purchasing.Common</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.AppleCore.csproj">
-      <Project>{E906F93C-2622-57F7-BF2D-EEE31C3D7A05}</Project>
+      <Project>{94421C71-08CB-8EA8-6565-0115EA1153DD}</Project>
       <Name>UnityEngine.Purchasing.AppleCore</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{B27B250D-E404-A7CB-A031-B506F2BE5A68}</Project>
+      <Project>{000507B9-EB5D-87F2-B651-2EBABEB38746}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{222969A2-80E8-9205-5BE8-136AC932F77B}</Project>
+      <Project>{317885CE-B3E0-8B2C-84E1-B329872A1046}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

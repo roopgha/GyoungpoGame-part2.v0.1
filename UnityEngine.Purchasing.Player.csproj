@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C05F16BF-F456-DB74-86E5-264174DC771D}</ProjectGuid>
+    <ProjectGuid>{64842CA8-9444-62FB-18D8-841A79EEF10F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing</AssemblyName>
@@ -648,11 +648,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Purchasing.Common.Player.csproj">
-      <Project>{960CEC7B-3579-C31D-A1E8-A9DCB0245A18}</Project>
+      <Project>{EE96896A-CF37-4E4E-0552-E75875A44D72}</Project>
       <Name>Purchasing.Common.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{BDBCAA13-491F-DADA-EB3A-CE9B366A051A}</Project>
+      <Project>{AF466B55-C9B4-4CA4-7C9D-7E05A1922EF9}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

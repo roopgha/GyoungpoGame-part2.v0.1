@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{138487C6-54E2-196A-10ED-5DD7693BF30E}</ProjectGuid>
+    <ProjectGuid>{DACDFDD6-12A7-5907-5CA0-653CA2F42830}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.XR.LegacyInputHelpers</AssemblyName>
@@ -665,15 +665,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{128D0FE6-2325-5018-3028-610E9DA38D5D}</Project>
+      <Project>{6915B19D-8877-A1F9-6684-506FCA208A30}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{B27B250D-E404-A7CB-A031-B506F2BE5A68}</Project>
+      <Project>{000507B9-EB5D-87F2-B651-2EBABEB38746}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{222969A2-80E8-9205-5BE8-136AC932F77B}</Project>
+      <Project>{317885CE-B3E0-8B2C-84E1-B329872A1046}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

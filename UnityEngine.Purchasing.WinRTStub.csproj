@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6FA17105-E51C-A1BF-DFBD-BB20E3CFBD9F}</ProjectGuid>
+    <ProjectGuid>{16F7F9C1-3D96-8B8A-4B8E-75F3CEE26F11}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.WinRTStub</AssemblyName>
@@ -663,15 +663,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Purchasing.WinRTCore.csproj">
-      <Project>{436AD479-9BD1-70B9-CE4F-C2354F8B2548}</Project>
+      <Project>{D18055E8-09C9-1A77-8801-7D9040377DF8}</Project>
       <Name>UnityEngine.Purchasing.WinRTCore</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{B27B250D-E404-A7CB-A031-B506F2BE5A68}</Project>
+      <Project>{000507B9-EB5D-87F2-B651-2EBABEB38746}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{222969A2-80E8-9205-5BE8-136AC932F77B}</Project>
+      <Project>{317885CE-B3E0-8B2C-84E1-B329872A1046}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
